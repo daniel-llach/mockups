@@ -12,4 +12,4 @@ $('div').mockups({
 ```
 
 ## Devices
-· mackbook pro: 838x
+· mackbook pro: 838
