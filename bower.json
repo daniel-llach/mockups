@@ -1,0 +1,28 @@
+{
+  "name": "mockups",
+  "authors": [
+    "daniel-llach <daniel.llach@gmail.com>"
+  ],
+  "description": "Devices mockups",
+  "main": [
+    "components/mockups.js",
+    "components/mockups.css"
+  ],
+  "moduleType": "es6",
+  "keywords": [
+    "mockup",
+    "devices",
+    "show"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1"
+  }
+}

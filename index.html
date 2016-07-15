@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>mockups</title>
+
+    <!-- landingcards dependencies -->
+    <script src="./bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <!-- <script src="./bower_components/underscore/underscore-min.js" type="text/javascript"></script> -->
+    <script src="./component/mockups.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="./component/mockups.css">
+</head>
+<body>
+  <div class="container"></div>
+
+  <script type="text/javascript">
+    // init mockups
+    $('.container').mockups({
+      type: "mackbook_pro",
+      img: "img/mackbook.jpg",
+      adjust: false
+    });
+  </script>
+</body>
