@@ -28,7 +28,7 @@
       mockup.then((res) => {
         $el.append( res({
           type: options.type
-        }) ).addClass('image');
+        }) );
       }).then(() => {
         // get device image and put into its container
         methods.setDevice($el, options);
